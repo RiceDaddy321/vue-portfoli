@@ -73,9 +73,6 @@ export default {
 </script>
 
 <style scoped>
-img {
-  /* width: 30px; */
-}
 .wrapper {
   display: flex;
   justify-content: center;
