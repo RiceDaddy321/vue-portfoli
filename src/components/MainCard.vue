@@ -5,7 +5,7 @@
       <!--Put images here along with job titles and other experience, and links-->
       <div class="profile">
         <img src="../assets/profilepic.jpg" alt="" />
-        <h3>Name here</h3>
+        <h3>Juan Velazquez</h3>
         <p>Software Developer</p>
       </div>
       <div class="social-links">
@@ -42,10 +42,7 @@
         <h1>Technologies Studied</h1>
         <div class="logos">
           <!-- TODO: put all of the technology logos here, or create a cool bar to represent profieciency -->
-          <img src="../assets/C++Logo.png" alt="" />
-          <img src="../assets/pythonLogo.png" alt="">
-          <img src="../assets/JavaScript-logo.png" alt="">
-          <img src="../assets/logo.png" alt="">
+          <BarCard/>
         </div>
       </div>
       <!-- temporary, not sure where to put -->
@@ -63,7 +60,9 @@
 </template>
 
 <script>
+  import BarCard from './LanguagesBarCard.vue'
 export default {
+    components: {BarCard},
     data() {
       return {
         publicPath: process.env.BASE_URL
@@ -113,11 +112,6 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.logos img {
-  height: 2.5rem;
-  margin: 2%;
 }
 
 .profile img {

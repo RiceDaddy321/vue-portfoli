@@ -9,6 +9,8 @@
       <h2>{{ projectData.projectsArray[index].title }}</h2>
       <img v-bind:src="projectData.projectsArray[index].image" alt="" />
       <p>{{ projectData.projectsArray[index].about }}</p>
+      <a :href="projectData.projectsArray[index].Link1" target="_blank" class="link1">GitHub</a>
+      <a :href="projectData.projectsArray[index].Link2" target="_blank" class="link2">Look</a>
     </div>
   </div>
 </template>
