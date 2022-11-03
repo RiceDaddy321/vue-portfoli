@@ -33,9 +33,8 @@
       <div class="about-me">
         <h1>About Me</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci, beatae
-          quis velit quo fugiat molestiae ipsa porro illum, labore quam ut soluta
-          laudantium sint suscipit dolore dolores rem. Accusamus.
+          Firstly, thank you for taking the time to look at my website. My name is Juan Velazquez and I am a third-year Computer Science undergraduate at the University of Texas Rio Grande Valley (UTRGV) in Edinburg (and Brownsville), Texas. My biggest responsibility at the moment is being the web master for the Machine Intellince at UTRGV, which has me maintaing, creating, and scaling their sites in order to help the research team move efficiently. You can learn more about the lab
+          <a href="https://miutrgv.github.io/" target="_blank">here</a>.
         </p>
       </div>
       <div class="technologies">
